@@ -39,6 +39,30 @@ const AboutMeSection = styled(Section)`
       background-color: #F2B705;
     }
   }
+
+  // mobile
+  @media screen and (max-width:899px) {
+  .contents{
+    width: 80%;
+    .privacy-info{
+      align-items: center;
+      &>div{
+        text-align: center;
+        font-size: 3.5rem;
+      }
+      .name{
+        font-size: 4rem;
+      }
+      margin-bottom: 5rem;
+      font-size: 3.5rem;
+    }
+  }
+    .blabla{
+      width: 80%;
+      font-size: 3.5rem;
+      margin:0;
+    }
+  }
 `;
 export const AboutMe = (): JSX.Element => {
   return (

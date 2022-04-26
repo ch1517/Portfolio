@@ -3,8 +3,10 @@ import Head from 'next/head'
 import styled from 'styled-components'
 import { AboutMe } from '../components/AboutMe';
 import { Archive } from '../components/Archive';
+import { Bottom } from '../components/Bottom';
 import { Header } from '../components/Header'
 import { Introduce } from '../components/Introduce';
+import { Project } from '../components/Project';
 import { Skills } from '../components/Skills';
 import { Section } from '../styles/common';
 
@@ -31,9 +33,9 @@ const Home: NextPage = () => {
         <AboutMe />
         <Skills />
         <Archive />
+        <Project />
       </Main>
-      <footer>
-      </footer>
+      <Bottom />
     </App>
   )
 }

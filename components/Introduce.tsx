@@ -9,6 +9,7 @@ const IntroduceSection = styled(Section)`
   padding:0;
   background-color: #7141D9;
   color:white;
+  margin-bottom:2rem;
 `;
 const IntroduceDiv = styled.div`
   flex:1;
@@ -77,6 +78,15 @@ const IntroduceDiv = styled.div`
     top:0;
     right: 0;
     position: absolute;
+  }
+
+  // mobile
+  @media screen and (max-width:899px) {
+    .profile-emoji{
+      width: 20rem;
+      height: 20rem;
+      margin-left: 0;
+    }
   }
 `;
 export const Introduce = (): JSX.Element => {
